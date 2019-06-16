@@ -8,6 +8,7 @@ _Required_
 - pip install opencv-python
 - pip install tensorflow
 - pip install keras==2.2.2
+- pip install webcolors
 
 _May Require_
 - pip install numpy
@@ -33,3 +34,8 @@ _May Require_
 - Run "python train_frcnn.py -o simple -p annotate.txt" to begin the training process. If you have a GPU, ensure thay you installed the TensorFlow with GPU support as this will significantly speedup the training process.
 
 # Data Prediction
+- The colour code is adapted from https://stackoverflow.com/questions/9694165/convert-rgb-color-to-english-color-name-like-green-with-python.
+- Change directory of the image by changing the "00019.jpg" part in "img_location = os.path.join(current_working_directory, "00019.jpg")".
+- The predicted data will have a bounding box over the vehicle and the colour will be calculated by finding 100 random regions over the part that has the bounding box. The colour that has the highest count, will be estimated the color of the car.
+- The output looks something like that:
+![Image of Output] (https://github.com/jeromechua/Grab-AI-For-SEA---Computer-Vision/blob/master/Expected%20Output.PNG)
