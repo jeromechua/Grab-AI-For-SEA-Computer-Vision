@@ -2,18 +2,20 @@
 This is a challenge from Grab to identify the make / model and color of vehicles.
 
 # Libraries
-- Required 
-pip install mat4py
-pip install opencv-python
-pip install tensorflow
-pip install keras==2.2.2
+Required 
 
-- May Require
-pip install numpy
+- pip install mat4py
+- pip install opencv-python
+- pip install tensorflow
+- pip install keras==2.2.2
+
+May Require
+
+- pip install numpy
 
 # Prerequisite
 - Download the model file ("model_frcnn.hdf5") from https://drive.google.com/open?id=1sODlnbkThlpQa-msGefKljOW97OK7CcT and copy to "4-Making_Predictions" folder.
-- Download training data from 
+- Download training data from imagenet.stanford.edu/internal/car196/cars_train.tgz. Extract and copy to "2-Read_ImgLabels_Resizer_From_CSV" > "cars_train" folder.
 
 # Data Cleaning
 - "1A-cars_train_annos.mat.ipynb" reads all the bounding boxes and classes of the vechicles and export it to CSV format
