@@ -40,3 +40,7 @@ _May Require_
 - The predicted data will have a bounding box over the vehicle and the colour will be calculated by finding 100 random regions over the part that has the bounding box. The colour that has the highest count, will be estimated the color of the car.
 - The output looks something like that:
 ![Image of Output](https://github.com/jeromechua/Grab-AI-For-SEA---Computer-Vision/blob/master/Expected%20Output.PNG)
+
+The make / model of the vehicle is shown and the colour (sienna) is also calculated.
+
+The rationale for using this alogirthm is that it is able to detect cars preciesely and the make / model of each car, hence it is useful for real-life deployment.
