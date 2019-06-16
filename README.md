@@ -26,7 +26,7 @@ _May Require_
 
 # Data Preview
 - "2B-Data_Preview" shows you the class / type of image and the respective image. A sample of the output is inside the Jupyter notebook.
-![Image of Preview]https://github.com/jeromechua/Grab-AI-For-SEA---Computer-Vision/blob/master/2-Read_ImgLabels_Resizer_From_CSV/data_preview.png
+![Image of Preview](https://github.com/jeromechua/Grab-AI-For-SEA---Computer-Vision/blob/master/2-Read_ImgLabels_Resizer_From_CSV/data_preview.png)
 
 # Data Modelling.
 - The code is adapted from https://github.com/kbardool/keras-frcnn.
